@@ -1,9 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
   }
 
 .header {
-    padding: 4px; /* some padding */
+    padding: 20px; /* some padding */
     text-align: center; /* center the text */
     background: #4e5cb9;
     color: white; /* white text color */
@@ -25,7 +26,7 @@ body {
     display: block; /* Change the display to block, for responsive reasons (see below) */
     color: white; /* White text color */
     text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
+    padding: 14px 10px; /* Add some padding */
     text-decoration: none; /* Remove underline */
   }
   
@@ -52,9 +53,13 @@ body {
   
   /* Main column */
   .main {
-    /*flex: 70%; /* Set the width of the main content */
-    background-color: white; /* White background color */
-    padding: 0px; /* Some padding */
+    flex: 70%; /*Set the width of the main content */
+    background-color: #ddd; /* White background color */
+    padding-inline: 15px; /* Some padding */
+    /* word-spacing: 200%; */
+    /* line-height: 125%; */
+    
+    font-size: 17px
   }
 
 
