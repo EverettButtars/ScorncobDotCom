@@ -1,10 +1,11 @@
 const template = document.createElement('template');
 
 const index = [
+   '2024_11_14',
    '2024_10_25',
    '2024_9_28', 
-   '2024_9_14',
-   '2024_11_14'];
+   '2024_9_14'
+   ];
 const curPost = window.location.href.split('/').at(-1).split('.')[0];
 const i = index.indexOf(curPost);
 let nextPostLine = "";
